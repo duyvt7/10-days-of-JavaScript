@@ -1,6 +1,23 @@
 var arr = [6,8,3,1]
 var sortArr = arr.sort(function(a,b){return a-b})
 console.log(sortArr)
-var x = sortArr.length;
-console.log(sortArr.length)
-
+// var x = sortArr.length;
+// var largestNumber = sortArr[x]
+// console.log(largestNumber)
+// var total = arr.reduce(function(a,b){
+//     if(b >= a ){return a}
+//     else {return b}
+// },0)
+// console.log(total)
+//try catch fianlly
+function Cat (weight){
+    this.weight=weight;
+}
+var Tom = new Cat(5)
+function catwWeight(){
+    try{alertsr('this is error')}
+    catch(err){
+        console.log ('I made this error')
+    }
+}
+catwWeight()
