@@ -30,7 +30,7 @@ function checkLetter(s){
     }
 }
 checkLetter(s)
-var splitTest = s.split('')
+var splitTest = s.split('a')
 console.log(splitTest)
 var names = 'naruto, sasuke, itachi'
 var newName = names.split(',')
