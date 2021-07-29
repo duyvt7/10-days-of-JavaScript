@@ -21,3 +21,17 @@ function catwWeight(){
     }
 }
 catwWeight()
+var s = 'agdfg'
+//fisrt letter is a => return A
+function checkLetter(s){
+    let letter;
+    if ('aeiuo'.includes(s[0])){
+        return letter = 'A'
+    }
+}
+checkLetter(s)
+var splitTest = s.split('')
+console.log(splitTest)
+var names = 'naruto, sasuke, itachi'
+var newName = names.split(',')
+console.log(newName)
